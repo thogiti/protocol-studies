@@ -1,14 +1,14 @@
 # Study Group Week 0
 
-Week 0 marks all the time before the program begins. Use this time to prepare yourself and get head start. 
+Week 0 marks all the time before the program begins. Use this time to prepare yourself and get a head start. 
 
-First, please check out the [announcement blog post](https://blog.ethereum.org/2024/02/07/epf-study-group) and fill the [registration form](https://forms.gle/7TqmryC217EPwgqr9).
+First, please check out the [announcement blog post](https://blog.ethereum.org/2025/02/05/ethereum-protocol-studies) and fill the [initial survey](https://forms.gle/BVQZDYoV6siALtHs7).
 
 ## Town Hall
 
-The call discussed the program details, schedule and answer your questions. Recording can be found at https://streameth.org/watch?event=epf_study_group&session=65cf9aaa4097e3a08efd1a28. 
+The call discussed the program details, schedule and answer your questions. Recording can be found at https://www.youtube.com/watch?v=7L1270CWjXw
 
-[recording](https://streameth.org/embed/?playbackId=2cb7oln7ky57em6a&vod=true&streamId=&playerName=EPF+Study+Group+Town+Hall ':include :type=iframe width=100% height=520 frameborder="0" allow="fullscreen" allowfullscreen')
+[recording](https://www.youtube.com/embed/7L1270CWjXw?si=fVXN913ZOJytR8Rv ':include :type=iframe width=100% height=560 frameborder="0" allow="fullscreen" allowfullscreen encrypted-media gyroscope picture-in-picture web-share')
 
 ## Pre-reading
 
@@ -31,5 +31,6 @@ These are just general suggestions of domain knowledge you will need. More intro
 ### Helpful resources to get you started
 
 - [Intro to Cryptography](https://summerofprotocols.com/wp-content/uploads/2023/12/53-BEIKO-001-2023-12-13.pdf)
+- [Introduction to Modern Cryptography](https://www.cs.umd.edu/~jkatz/imc.html)
 - [Merkle trees](https://youtu.be/V6gLY-1G4Mc?si=W1ncsNYUSHjm5U4y), [in Bitcoin](https://www.youtube.com/watch?v=bBC-nXj3Ng4)
 - [Networking & p2p](https://youtu.be/ie-qRQIQT4I?si=eYKzMbn7PGk-Il9M), [in Bittorrent](https://www.youtube.com/watch?v=xH00ikD1oDo)

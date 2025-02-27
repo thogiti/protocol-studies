@@ -2,6 +2,10 @@
 
 The execution client stores the current state and historical blockchain data. In practice, the Ethereum data are stored in trie like structures, mainly Merkle Patricia Tree. 
 
+## RLP
+
+[Wiki - RLP](/wiki/EL/RLP.md)
+
 ## Primer on Merkle Tree
 
 Merkle tree is a hash-based data structure which is very efficient at data integrity and verification. It is a tree based structure where the leaf nodes hold the data values and each non-leaf node is a hash of its child nodes.
@@ -20,12 +24,12 @@ The main parent node is called Root, hence the hash inside is Root Hash. There i
 
 The image below depicts a simplified version of the working of a Merkle Tree:
 
-- The lead nodes contain the actual data(for simplicity, we have taken numbers)
+- The leaf nodes contain the actual data(for simplicity, we have taken numbers)
 - Every non-leaf node is a hash of its children.
 - The first level of non-leaf nodes contains the Hash of its child leaf nodes
   `Hash(1,2)`
 - The same process continues till we reach the top of the tree, which the Hash of all the previous Hashes
-  `Hash[Hash(1,2),Hash(3,4),Hash(5,6),Hash(7,8)]`
+  `Hash[Hash[Hash(1,2),Hash(3,4)],Hash[Hash(5,6),Hash(7,8)]]`
 
 More on [Merkle Trees in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum)
 
